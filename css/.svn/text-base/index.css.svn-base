@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+	border: none;	
+}
+
+li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+html,body,input,textarea {
+    font-family: 微软雅黑,Verdana;
+}
+
+html {
+	background:#FFF6E3;	
+}
+
+.clear {
+	clear:both;	
+}
+
+#mainmap {
+	height:500px;
+	width:100%;
+	margin:0 0 10px 0;
+	-moz-box-shadow: 0px 1px 8px #F93;
+	-webkit-box-shadow: 0px 1px 8px #F93;
+	box-shadow: 0px 1px 8px #F93;
+}
+
+#mapmenu {
+	margin:10px auto 0 auto;
+	width:98%;
+	height:30px;
+	background:#666;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+
+	overflow:hidden;
+}
+
+
+.waimaitype {
+	float:left;
+	height:30px;
+	line-height:30px;
+	width:100px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.waimaitype1 {
+	-moz-border-radius: 15px 0 0 15px;
+	-webkit-border-radius: 15px 0 0 15px;
+	border-radius: 15px 0 0 15px;
+}
+
+.waimaitypehover {
+	color:#fff;
+	background:#f93;
+}
+
+.waimaitypeclick {
+	color:#fff;
+	background:#f93;
+}
+
+#maplistarrow {
+	position:relative;
+	width:28px;
+	height:28px;
+	margin:-11px 0 0 50px;
+}
+
+#maplistarrow1 {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-bottom-color: #f93;
+	_border: 14px solid;
+	_border-color: transparent transparent #f93 transparent;
+	_border-style: dashed dashed solid dashed;
+	_overflow: hidden;
+}
+
+#maplistarrow2 {
+	position:absolute;
+	top:7px;
+	left:2px;
+	width: 0;
+	height: 0;
+	border: 12px solid transparent;
+	border-bottom-color: #666;
+	_border: 12px solid;
+	_border-color: transparent transparent #666 transparent;
+	_border-style: dashed dashed solid dashed;
+	_overflow: hidden;
+}
+
+#maplist {
+	margin:0px auto 0 auto;
+	width:98%;
+	background:#666;
+	border:3px solid #f93;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	_border-radius:0;
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+
+	overflow:hidden;	
+}
+
+.goodslist {
+	float:left;
+	margin:10px 0 10px 15px;
+	width:176px;
+	height:146px;
+	background:#fff;
+	_display:inline;
+	cursor:pointer;
+}
+
+.goodsimg {
+	height:106px;
+}
+
+.goodsname,.goodsaddress {
+	text-align:center;
+	line-height:20px;
+	background:#000;
+	color:#fff;
+}
